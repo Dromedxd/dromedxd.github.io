@@ -1,0 +1,51 @@
+#pagina{
+    width: 1100px; 
+	height:  1200px; 
+	margin:  auto; 
+	background: grey;
+} 
+
+img {
+	width: 300px 
+	height 225px; 
+	border: 3px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+
+/*Probando el posicionamiento relativo*/
+/*
+#foto1{
+	position: relative; 
+	top: 20px;
+	left: 30px;
+}
+#foto2 {
+	position: relative;
+	top: 40px;
+	left: 040px;
+}
+#foto3 {
+	position: relative;
+	left: 490px;
+}
+*/
+/*Probando el posicionamiento absoluto:*/
+/*
+#foto1 {
+position: absolute; 
+top: 20px;
+right:30px;
+}
+*/
+/*
+#foto1 {
+	position: relative;
+}
+*/
+/*Fijo:*/
+ #foto3 {
+position: fixed;
+ top: 10px;
+ right: 20px;
+ }
