@@ -49,3 +49,37 @@ position: fixed;
  top: 10px;
  right: 20px;
  }
+
+
+
+ /* Barra de navegación para la pagina*/
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+    background: #fce4c2;
+    font-size: 20px;
+  }
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: #CE7D35;
+    transition: all .2s;}

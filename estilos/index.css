@@ -6,9 +6,30 @@ p {
   margin-top: 100px;
 }
 
+
+
 body {
   background-color: #fce4c2;
 }
+
+#listaejercicios{
+  
+  
+  font-size: 20px;
+  margin-top: 5px;
+  float:auto;
+  margin-left: 200px;
+  display: block;
+  color: black;
+  font-family: 'Open sans';
+  
+  
+}
+  
+a {text-decoration: none;
+
+}
+
 
 .foto img {
 	width: 30%;
@@ -66,3 +87,4 @@ img {
   font-size: 18px;
   height: 100px;
 }
+
