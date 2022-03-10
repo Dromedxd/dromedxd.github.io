@@ -1,0 +1,49 @@
+#sidebar {
+    padding: 15px;
+    padding-left: 600px;
+    background-color: #E9F5FE;
+}
+
+
+
+#main {float: left;
+       width: 580px;
+       background-color: #CDE6FF; /* Para que se viera como en la imagen del pdf he tenido que darle su propio color de fondo */
+
+}
+
+#main h2 {
+    color: #E8A064;
+    border-bottom: 2px solid white;
+    background: url("../images/bullet_flower.png") no-repeat;
+    padding: 0px 0px 10px 80px;
+        
+}
+
+body{
+    background-repeat:  repeat no-repeat;
+    background-image: url(../images/bg_body.png);
+    color: #B1967C;
+    background-color: #CDE6FF;
+    font-family:'Palatino Linotype';
+    padding: top 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px; /* para que se viera exactamente igual que en el pdf he tenido que modificar el margin-top */
+    margin-bottom: 0;
+}
+
+h1 { font-family: 'Arial Black';
+    font-size: 3em;
+
+}
+
+h2 { font-size: 2.2em;
+     color: #AFC3D6;
+     padding-bottom: 5px;
+
+}
+
+
+

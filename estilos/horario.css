@@ -52,3 +52,36 @@ td, th {
 .recreo {
     background: radial-gradient(rgba(75, 75, 243, 0.2) 20%, rgba(0, 255, 0, 0.2) 40%, rgba(153,50,204, 0.5) 60%, rgba(255,0,0, 0.2) 80%, rgba(140, 247, 149, 0.5) 100%);
 }
+
+
+
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+    background: #fce4c2;
+    font-size: 20px;
+  }
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: #CE7D35;
+    transition: all .2s;}
