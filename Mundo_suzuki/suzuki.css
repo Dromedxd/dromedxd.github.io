@@ -1,18 +1,18 @@
 
 body {
     background: #696969 url('./imagenes_suzuki/bg_page.png') repeat-y fixed center;
-    background-size: 70%;
-    margin-left: 20%; 
-    margin-right: 20%;
+    
+   
 }
 
 #pagina {
-    margin: 10%;
     margin-top: 5%;
-    text-align:justify
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
 }
 
-#moto {
+.moto {
  
     display:flex;
     justify-content: center;
@@ -51,10 +51,12 @@ p {
 /* Barra de navegación para la pagina*/
 
 .navegacion{
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
-     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background: #fce4c2;
     font-size: 20px;
   }
