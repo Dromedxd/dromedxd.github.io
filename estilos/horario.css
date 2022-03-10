@@ -1,56 +1,54 @@
-body {
-    background-image: url(./fondo.png);
-}
-
 div {
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+    background: white;
     width: 900px;
 }
 
 table {
   color: white;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  font-family: arial, sans-serif;
   text-align: center;
   border-collapse: collapse;
   width: 800px;
   height: 800px;
-  margin: auto auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td, th {
-  border: 1px solid black;
+  border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
-  background-color: rgb(80,80,80, 0.25);
+  background-color: rgba(69, 69, 69, 0.25);
 }
 
-.imagen {
-    background-image: url('/imagenes_css/instituto.png');
+.contenedor {
+    background-image: url(/imagenes_css/paisaje01.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .gbd {
-    background-color: rgba(255, 147, 139, 0.2);
+    background-color: rgba(0, 0, 255, 0.2);
 }
 .plar {
-    background-color: rgba(248, 250, 111, 0.2);
+    background-color: rgba(0, 255, 0, 0.2);
 }
 .fol {
-    background-color: rgba(109, 243, 198, 0.2);
+    background-color: rgba(112, 82, 2, 0.5);
 }
 .iso {
-    background-color: rgba(153,50,204, 0.2);
+    background-color: rgba(153,50,204, 0.5);
 }
 .lm {
     background-color: rgba(255,0,0, 0.2);
 }
 .fuh {
-    background-color: rgba(255,184,28, 0.2);
+    background-color: rgba(255,184,28, 0.5);
 }
 
 .recreo {
-    background: radial-gradient(rgba(75, 75, 243, 0.2) 20%, rgba(0, 255, 0, 0.2) 40%, rgba(153,50,204, 0.5) 60%, rgba(255,0,0, 0.2) 80%, rgba(140, 247, 149, 0.5) 100%);
+    background: linear-gradient(45deg, rgba(0, 0, 255, 0.2) 20%, rgba(0, 255, 0, 0.2) 40%, rgba(153,50,204, 0.5) 60%, rgba(255,0,0, 0.2) 80%, rgba(255,184,28, 0.5) 100%);
 }
