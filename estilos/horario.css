@@ -1,54 +1,47 @@
-div {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 15px;
-    background: white;
-    width: 900px;
+
+.imagen {background-image: url('instituto.png');
+        background-position: center;
+
+
 }
 
 table {
-  color: white;
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  font-family: arial, sans-serif;
+  color: black;
   text-align: center;
   border-collapse: collapse;
   width: 800px;
   height: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  margin: auto auto;
+  }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid black;
   text-align: center;
   padding: 8px;
-  background-color: rgba(69, 69, 69, 0.25);
+
 }
 
-.contenedor {
-    background-image: url(/imagenes_css/paisaje01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.gbd {
-    background-color: rgba(0, 0, 255, 0.2);
+
+.bases {
+    background-color: rgba(255, 147, 139, 0.2);
 }
-.plar {
-    background-color: rgba(0, 255, 0, 0.2);
+.redes {
+    background-color: rgba(248, 250, 111, 0.2);
 }
 .fol {
-    background-color: rgba(112, 82, 2, 0.5);
+    background-color: rgba(109, 243, 198, 0.2);
 }
 .iso {
-    background-color: rgba(153,50,204, 0.5);
+    background-color: rgba(153,50,204, 0.2);
 }
 .lm {
     background-color: rgba(255,0,0, 0.2);
 }
 .fuh {
-    background-color: rgba(255,184,28, 0.5);
+    background-color: rgba(255,184,28, 0.2);
 }
 
 .recreo {
-    background: linear-gradient(45deg, rgba(0, 0, 255, 0.2) 20%, rgba(0, 255, 0, 0.2) 40%, rgba(153,50,204, 0.5) 60%, rgba(255,0,0, 0.2) 80%, rgba(255,184,28, 0.5) 100%);
+    background: radial-gradient(rgba(75, 75, 243, 0.2) 20%, rgba(0, 255, 0, 0.2) 40%, rgba(153,50,204, 0.5) 60%, rgba(255,0,0, 0.2) 80%, rgba(140, 247, 149, 0.5) 100%);
 }
