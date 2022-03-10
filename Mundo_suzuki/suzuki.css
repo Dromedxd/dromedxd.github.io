@@ -12,12 +12,19 @@ body {
     text-align:justify
 }
 
-img {
-    margin-left: auto;
-    margin-top: 5%;
-    border: 3px solid black;
-    
+#moto {
+ 
+    display:flex;
+    justify-content: center;
+    width: auto;
+
 }
+
+img { border: 3px solid black;
+
+}
+
+
 
 h1 {
     color: rgba(221, 27, 27, 0.658);
