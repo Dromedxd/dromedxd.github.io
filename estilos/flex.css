@@ -27,7 +27,6 @@ body {
     background: #9966CC;
     border: 1px solid black;
     float: right;
-    display: flex;
     margin-top: 5px;
     margin-right: 5px;
 }
@@ -42,7 +41,6 @@ body {
 #tag {
     width: 120px;
     height: 60px;
-    display: flex;
     background: #FF6600;
     border: 1px solid black;
     float: right;
