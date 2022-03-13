@@ -1,0 +1,21 @@
+p {
+    color: #FF6600;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: 25px solid #BD8100;
+}
+
+li {
+    list-style-image: url("imagenes/css.png");
+    margin-left: 150px;
+
+}
+
+.pagestyle {
+    font-family: Helvetica Neue, Arial, Helvetica;
+    font-size: 18px;
+    color: #BD8100;
+    width: 900px;
+    margin: 0px auto;
+}
+

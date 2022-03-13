@@ -6,7 +6,7 @@ div {
     width: 900px;
   
 }
-.imagen {background-image: url('logo.png');
+.imagen {background-image: url('../logo.png');
 
 }
 
