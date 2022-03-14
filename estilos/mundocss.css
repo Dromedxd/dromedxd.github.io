@@ -1,0 +1,42 @@
+p {
+	color: #505050;
+	font-family: calibri;
+	font-size: 16px;
+	margin-left: 75px;
+}
+h1, h2, h3 {
+	color: #BD8100;
+	font-family: Baskerville;
+	border-top: 2px solid #86A100;
+	padding-top: 7px;
+	padding-left: 75px;
+}
+.note {
+	color: #333;
+	border: 2px dashed #BD8110;
+	background: #FBF8A9;
+	margin-top: 25x;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+p strong {
+	color: #FC6512;
+}
+body {
+	background: url("../imagenes_css/fondo.png") #FDF8AB repeat-y fixed center;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin: auto;
+	width: 760px;
+	height: 2000px;
+}
+img {
+	width: 760px;
+	height: 200px
+}
+#banner {
+
+	margin-top: 15px;
+
+}
