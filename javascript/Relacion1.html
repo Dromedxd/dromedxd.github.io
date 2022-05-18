@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script language="javascript"></script>
+    <title>relacion1</title>
+    <script src="jsrelacion1.js"></script>
 </head>
 <body>
     <h2>1. Introduce tres números y calcula la suma, mostrándola con alert.</h2><br>
@@ -45,10 +43,94 @@
 <h2>4. Introduce dos números por teclado y calcula la suma, la resta, el producto y el resto imprimiéndolos en la web.</h2>
 
 <form name="ej4">
-    <input type="text" name="n1"><br><br>
-    <input type="text" name="n2"><br><br>
+    <input type="number" name="n1"><br><br>
+    <input type="number" name="n2"><br><br>
+    <button type="button" onclick="ejercicio4()">Calcular </button><br><br>
 
-        
+  <div id="respuesta4" style="border: 2px solid black;">
+
+</div>
+
+<h2>5. Calcula el sueldo del mes de un empleado a partir del número de horas trabajadas
+    y el precio por hora. Tendremos que descontar el % de IRPF que se indique.</h2>
 </form>
+
+<form name="ej5">
+    <p>Horas trabajadas:<input type="number" name="n1"></p><br><br>
+    <p>Precio por hora:<input type="number" name="n2"></p><br><br>
+    <p>IRPF en porcentaje:<input type="number" name="n3"></p><br><br>
+
+    <button type="button" onclick="ejercicio5()">Calcular sueldo </button><br><br>
+
+    <div id="respuesta5" style="border: 2px solid black;"></div><br><br>
+</form>
+
+<h2>6. Introduce horas, minutos y segundos y calcula el total de segundos.</h2>
+<form name="ej6">
+    <p>Horas :<input type="number" name="n1"></p><br><br>
+    <p>Minutos :<input type="number" name="n2"></p><br><br>
+    <p>Segundos :<input type="number" name="n3"></p><br><br>
+
+    <button type="button" onclick="ejercicio6()">Calcular conversion </button><br><br>
+
+    <div id="respuesta6" style="border: 2px solid black;"></div><br><br>
+
+</form>
+
+<h2>7. Introduce el precio unitario de un producto, el número de unidades compradas, el descuento aplicado y calcula el total con el IVA indicado.</h2>
+
+<form name="ej7">
+    <p>Precio de la unidad :<input type="number" name="n1"></p><br><br>
+    <p>IVA :<input type="number" name="n2"></p><br><br>
+    <p>Numero de unidades:<input type="number" name="n3"></p><br><br>
+    <p>Descuento en % :<input type="number" name="n4"></p><br><br>
+    
+
+    <button type="button" onclick="ejercicio7()">Calcular conversion </button><br><br>
+
+    <div id="respuesta7" style="border: 2px solid black;"></div><br><br>
+
+</form>
+
+
+<h2>8.Calcula el precio neto y el IVA a partir del precio total introducido por teclado.</h2>
+<form name="ej8">
+    <p>Precio de la unidad :<input type="number" name="n1"></p><br><br>
+
+    <button type="button" onclick="ejercicio8()">Calcular conversion </button><br><br>
+
+    <div id="respuesta8" style="border: 2px solid black;"></div><br><br>
+
+</form>
+
+
+
+
+<h2>9. Introducir número y exponente y calcular la potencia</h2>
+<form name="ej9">
+    <p>Numero :<input type="number" name="n1"></p><br><br>
+    <p>Exponente :<input type="number" name="n2"></p><br><br>
+
+    <button type="button" onclick="ejercicio9()">Calcular </button><br><br>
+
+    <div id="respuesta9" style="border: 2px solid black;"></div><br><br>
+
+</form>
+
+
+<h2>10. Iasdddddddddddddddddddddddddddddddddddd</h2>
+<form name="ej10">
+    <p>horas :<input type="number" name="n1"></p><br><br>
+    <p>pago normal :<input type="number" name="n2"></p><br><br>
+    <p>pago extra :<input type="number" name="n3"></p><br><br>
+    <p>irpf :<input type="number" name="n4"></p><br><br>
+    <button type="button" onclick="ejercicio10()">Calcular </button><br><br>
+
+    <div id="respuesta9" style="border: 2px solid black;"></div><br><br>
+
+</form>
+
+
+
 </body>
 </html>
