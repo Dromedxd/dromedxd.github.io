@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relacion2</title>
+    <script type="text/javascript"></script>
+</head>
+<body>
+<h2>1. Introducir un número y determinar si está comprendido entre 1 y 10</h2>
+<div style="border: 2px solid black;"><br>
+ 
+    <form name="rel2ej1" >
+        <a>Introduce un numero entero: <input type="text" name="n1"></a>
+        <input type="submit" value="enviar" onclick="
+				numero=parseInt(rel2ej1.n1.value);
+				if (numero > 0 && numero < 11)
+				{
+					alert('Si esta entre 1 y 10');
+				}
+
+				else {
+				    alert('No esta entre 1 y 10');
+				}">
+    </form>
+    <br>
+</div>
+
+<h2>2. Introduce un número y calcula si es positivo o negativo.</h2>
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej2">
+        <a>Introduyce un numero: <input type="text" name="n1"></a>
+        <input type="submit" value="enviar" onclick="numero=parseInt(rel2ej2.n1.value);
+        if (numero>0) 
+      {
+          alert('Positivo');
+      }
+      else
+        if(numero<0)
+      {
+          alert('Negativo');
+      }
+      else
+        if(numero='0')
+      {
+          alert('es 0 o algun caracter invalido');
+      }">
+
+</form><br>
+</div>
+
+
+<h2>3. Introduce tres números y determina cuál es el medio.</h2>
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej3">
+        <a>Introduce el primer numero: <input type="text" name="n1"></a><br><br>
+        <a>Introduce el segundo numero: <input type="text" name="n2"></a><br><br>
+        <a>Introduce el tercer numero: <input type="text" name="n3"></a><br><br>
+        <input type="submit" value="enviar" onclick="
+        numero1=parseInt(rel2ej3.n1.value);
+
+        numero2=parseInt(rel2ej3.n2.value);
+
+        numero3=parseInt(rel2ej3.n3.value);
+
+        var numeros = [numero1, numero2, numero3];
+            i=0;
+
+            medio = numeros[i];
+
+            while (numeros[i+1]) {
+                if(numeros[i] < numeros[i+1]) {
+                    medio = numeros[i+1];
+            }
+            i++;
+        }
+        alert('El numero medio es: ' + medio);
+    ">
+
+</form><br>
+</div>
+
+<h2>4. Introduce tres números y muéstralos ordenados de menor a medio.</h2>
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej4">
+        <a>Introduce el primer numero: <input type="text" name="n1"></a><br><br>
+        <a>Introduce el segundo numero: <input type="text" name="n2"></a><br><br>
+        <a>Introduce el tercer numero: <input type="text" name="n3"></a><br><br>
+        <input type="submit" value="enviar" onclick="
+        numero1=parseInt(rel2ej4.n1.value);
+
+        numero2=parseInt(rel2ej4.n2.value);
+
+        numero3=parseInt(rel2ej4.n3.value);
+
+                if(numero1>numero2) {
+					medio=numero1;
+					numero1=numero2;
+					numero2=medio;
+				}
+				if(numero1>numero3) {
+					medio=numero1;
+					numero1=numero3;
+					numero3=medio;
+				}
+				if(numero2>numero3) {
+					medio=numero2;
+					numero2=numero3;
+					numero3=medio;
+				}
+				alert('numeros de menor a mayor: ' + numero1 + ', ' + numero2 + ', ' + numero3);">
+
+</form><br>
+</div>
+
+<h2>5. Introducir una nota numérica y devolver Suficiente, Notable, Bien, con switch.</h2>
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej5">
+        <a>Introduce la nota: <input type="text" name="n1"></a><br><br>
+     
+        <input type="submit" value="enviar" onclick="
+        numero1=parseInt(rel2ej5.n1.value);
+        switch (numero1) {
+  					case 10: case 9:
+					alert('Sobresaliente');
+					break;
+  					case 8: case 7:
+					alert('Notable');
+					break;
+  					case 6:
+					alert('Bien');
+					break;
+  					case 5:
+					alert('Suficiente');
+					break;
+					case 4: case 3: case 2: case 1: case 0:
+					alert('Suspenso')
+					break;
+  					default:
+					alert('Valor no valido');
+				}">
+     
+			
+
+</form><br>
+</div>
+
+
+<h2>6.Programa que imprima los números impares comprendidos entre 100 y 200.</h2>
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej6">
+       
+     
+        <input type="submit" value="enviar" onclick="
+        
+        
+        
+       var numero = 100;
+        var numerofinal = 200;
+        
+        for (var i = numero; i< numerofinal; i++) {
+            if(i % 2 != 0) {
+                document.write('<br>' + i);
+
+            }
+        }
+        ">
+    </form><br>
+</div>
+
+<h2>7. Programa que muestre todos los múltiplos de 3 comprendidos entre 1 y 100.</h2>
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej7">
+       
+     
+        <input type="submit" value="enviar" onclick="
+               
+       numero = 1;
+      				while (numero<101) {
+					if(numero%3 == 0) {
+						document.write(numero + '<br>');
+					}
+					numero++;
+                }
+        ">
+    </form><br>
+</div>
+
+<h2>8. Calcular la suma de todos los múltiplos de cinco comprendidos entre 1 y 100.</h2>
+
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej8">
+       
+     
+        <input type="submit" value="enviar" onclick="
+               
+       numero = 1;
+       suma = 0;
+      				while (numero<101) {
+					if(numero%5 == 0) {
+						suma=suma+numero;
+					}
+					numero++;
+                }
+        alert('La sume de todos los multuplos es : ' + suma);
+        ">
+    </form><br>
+</div>
+
+<h2>9. Calcula la suma de todos los pares comprendidos entre 1 y 1000 y muéstralo</h2>
+
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej9">
+       
+     
+        <input type="submit" value="enviar" onclick="
+               
+       numero = 1;
+       suma = 0;
+      				while (numero<1001) {
+					if(numero%2 == 0) {
+						suma=suma+numero;
+                        document.write(numero + '<br>');
+					}
+					numero++;
+                }
+        document.write('La sume de todos los multuplos es : ' + suma);
+        ">
+    </form><br>
+</div>
+
+<h2>10. Calcula la suma de todos los números comprendidos entre dos números introducidos por teclado</h2>
+
+<div style="border: 2px solid black;"><br>
+    <form name="rel2ej10">
+       
+        <a>Primer numero<input type="text" name="n1"></a><br><br>
+        <a>Segundo numero:<input type="text" name="n2"></a><br><br>
+        <input type="submit" value="enviar" onclick="
+        
+       
+    
+       numero1 = parseInt(rel2ej10.n1.value);
+       numero2 = parseInt(rel2ej10.n2.value);
+
+       suma=0
+
+
+
+
+      				while (numero1<numero2) {
+					if(numero%2 == 0) {
+						suma=suma+numero;
+                        document.write(numero + '<br>');
+					}
+					numero++;
+                }
+        document.write('La sume de todos los multuplos es : ' + suma);
+        ">
+    </form><br>
+</div>
+
+</body>
+</html>
