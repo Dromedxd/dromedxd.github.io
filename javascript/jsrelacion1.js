@@ -138,11 +138,11 @@ function ejercicio10(){
         extras= horasextras * pagoextra;
         irpf = (irpf/100);
     }
-    else(horas >= HORASMENSUALES) {
+    else(horas >= HORASMENSUALES) 
         phorasnormales = pagonormal * HORASMENSUALES;
 
         
-    }
+    
     }
 
 
